@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>imgae upload and display</title>
+    <link rel="stylesheet" href="h.css" type="text/css">
+  </head>
+  <body>
+    <h1>LetsMake</h1>
+    <input type="text" placeholder="blog title" id="title">
+    <textarea placeholder="blog content" id="content" cols="30" rows="10"></textarea>
+      <input type="file" accept="image/*" onClick="loadFile(event)" >
+      <button type="submit" onClick="display()">upload</button>
+      <p><img id="output" width="200"/></p>
+      <div id="head"></div>
+      <div id="para"></div>
+      <script src="h.js"></script>
+  </body>
+</html>
